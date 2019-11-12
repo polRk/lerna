@@ -106,7 +106,7 @@ class RunCommand extends Command {
     return chain.then(() => {
       this.logger.success(
         "run",
-        "Ran npm script '%s' in %d %s in %ss:",
+        "Run npm script '%s' in %d %s in %ss:",
         this.script,
         this.count,
         this.packagePlural,
